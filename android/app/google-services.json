@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1089997613315",
+    "project_id": "nur-socialmedia-app",
+    "storage_bucket": "nur-socialmedia-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089997613315:android:c8b0d44b1babfbb9532136",
+        "android_client_info": {
+          "package_name": "com.example.soical_media_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089997613315-qgqe3it0dhm5n989vh47p1n2ikk31e66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soical_media_app",
+            "certificate_hash": "5faffa95e16a3fad0f3f9318f1a77ff0bc15c48c"
+          }
+        },
+        {
+          "client_id": "1089997613315-5b63kvpqnj970j729bl2r0i305tk1vnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW2JhlUgZ8yHwWz91TLCgyr3DIiSchn_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089997613315-5b63kvpqnj970j729bl2r0i305tk1vnq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1089997613315-vuu88ikbuukub1qc4jm198olihrjqvp3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.soicalMediaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

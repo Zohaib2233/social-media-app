@@ -1,0 +1,5 @@
+/// 1
+flutter pub add zego_uikit_prebuilt_call
+
+/// 2
+

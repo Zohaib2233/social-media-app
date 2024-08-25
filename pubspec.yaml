@@ -1,0 +1,112 @@
+name: soical_media_app
+description: "A new Flutter project."
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  flutter_otp_text_field: ^1.1.1
+  persistent_bottom_nav_bar_v2: ^5.2.3
+  dropdown_button2: ^2.3.9
+  pattern_formatter: ^4.0.0
+  flutter_rating_bar: ^4.0.1
+  dotted_line: ^3.2.2
+  slideable: ^0.0.2
+  dashed_circular_progress_bar: ^0.0.6
+  flutter_slidable: ^3.0.1
+  flutter_staggered_grid_view: null
+  video_player:
+  intl_phone_field: ^3.2.0
+
+  google_sign_in: ^6.2.1
+  shared_preferences: ^2.2.2
+
+  image_picker: ^1.0.7
+  firebase_auth: ^4.17.0
+  firebase_storage: ^11.6.6
+  firebase_core: ^2.25.0
+  cloud_firestore: ^4.15.0
+  fluttertoast: ^8.2.4
+  video_thumbnail:
+  path_provider: ^2.1.3
+  flutterflow_paginate_firestore: ^1.0.3+1
+  timeago: ^3.6.1
+  story_maker: ^1.0.5
+  advstory:
+#  file_picker: ^8.0.2
+  file_picker: ^8.0.6
+  voice_message_package: ^2.2.1
+  record: ^5.0.5
+  geoflutterfire_plus: ^0.0.21
+  geolocator: ^12.0.0
+  flutter_local_notifications: ^17.0.0
+  firebase_messaging: ^14.7.19
+  app_settings: ^5.1.1
+  open_file_plus: ^3.4.1+1
+  url_launcher: ^6.2.6
+  dio: ^5.4.3+1
+  zego_uikit_prebuilt_call: ^4.9.0
+  zego_uikit_signaling_plugin: ^2.7.6
+  permission_handler: ^11.3.1
+  flutter_media_downloader: ^1.0.4
+  image_gallery_saver: ^2.0.3
+  uuid: ^4.4.0
+  googleapis_auth: ^1.6.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+
+
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/constants/
+  filename: app_images.dart
+  field_prefix: ""
